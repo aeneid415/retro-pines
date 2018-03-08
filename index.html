@@ -3,52 +3,64 @@
     <meta charset="utf-8" />
     
     <link rel="icon" type="image/ico" href="assets/images/favicon.ico" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" />
     <title>Retro Pines</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <!--
     <meta name="viewport" content="width=device-width" />
 	-->
+	<!-- Navbar CSS and JS -->
+	<link rel="stylesheet" href="assets/styles.css">
     <!-- Bootstrap core CSS     -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Bootstrap core JS      -->
-    <link href="assets/vendor/bootstrap/js/bootstrap.min.js" rel="stylesheet" />
+
+   	<script language="JavaScript" type="text/javascript" src="assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="assets/script.js"></script>
 
 
 </head>
 	<div class="container-full-bg" style="width:100% !important">
-		<div class="jumbotron" style="background-color:#69c672 !important; margin-bottom: 0px !important">
-			<div class="text-center">
-		    	<img class="img-responsive" src="assets/images/retro_logo.jpg" alt="Retro" height="100">
+		<div class="row">
+			<div class="col-md-12 col-sm-12" style="padding: 30px !important">
+				<div class="text-center">
+			    	<img class="img-responsive" src="assets/images/retro_logo.jpg" alt="Retro" height="250">
+				</div>
 			</div>
-
-		
   		</div>
-  		<nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix" >
-		    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-		        <a class="navbar-brand" href="#">Retro Pines</a>
-		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
-		            <span class="navbar-toggler-icon"></span>
-		        </button>
-		        <div class="collapse navbar-collapse text-center" id="navbarsExample11">
-		            <ul class="navbar-nav">
-		                <li class="nav-item active">
-		                    <a class="nav-link" href="#">Home</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link" href="#">About</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link" href="#">Gallery</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link" href="#">Booking</a>
-		                </li>
-		                
-		            </ul>
-		        </div>
+  		<div id='cssmenu'>
+		   <ul style="display: flex; justify-content: center;">
+		      <li class='active'><a href='#'><span>Home</span></a></li>
+		      <li><a href='#'><span>Rooms</span></a></li>
+		      <li><a href='#'><span>Booking</span></a></li>
+		      <li><a href='#'><span>Specials</span></a></li>
+		      <li><a href='#'><span>Gallery</span></a></li>
+		      <li><a href='#'><span>Testimonials</span></a></li>
+		      <li class='last'><a href='#'><span>Contact</span></a></li>
+		   </ul>
+		</div>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="assets/images/goat.jpg" alt="First slide">
 		    </div>
-		</nav>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/images/river.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/images/falls.jpg" alt="Third slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
 	</div>
 	<br>
 	<div class="container">
