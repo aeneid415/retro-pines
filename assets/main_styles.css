@@ -1,0 +1,14 @@
+@font-face {
+    font-family: OpenSansLight;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+
+#main_des{
+	font-family: OpenSansLight;
+	color: #764d08;
+}
+
+#service{
+	font-family: Arial;
+	font-weight: 500;
+}
