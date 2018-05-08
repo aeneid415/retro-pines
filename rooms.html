@@ -11,6 +11,7 @@
 	-->
 	<!-- Navbar CSS and JS -->
 	<link rel="stylesheet" href="assets/nav_styles.css">
+	<link rel="stylesheet" href="assets/main_styles.css">
     <!-- Bootstrap core CSS     -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" >
@@ -46,18 +47,20 @@
 	<br>
 	<div class="container">
 		<div class="well text-center" style="margin-bottom: 50px;">
-			<h1 class="text-center" id="main_des" style="margin-bottom: 50px;">
-					Featured Rooms
+			<h1 class="text-center" id="main_des" >
+					Room Selection
 				</h1>
+				<span id="vismis">
+			<p style="margin-bottom: 50px;" > Take your pick from a variety of rooms we have in store for you!</p>
 		    <div class="col-md-12">
 			    <div class="row">
 
 			        <div class="col-md-6">
 			            <a href="#"><img src="assets/images/standard-ruby.jpg" class="img-polaroid" style="width:400px; margin-bottom: 40px" alt="inn_logo"></a>
 			            <div class = "text-left">
-			            <h4>Standard Twin</h4>
+			            <h4 id="room_head">Standard Ruby</h4>
 	                    <div class="description" style="margin-bottom: 10px">
-	                    The STANDARD ROOM aptly provides the essentials of value accommodation.  Perfect for travellers with reasonable budgets.
+	                    The Standard room is an entry level room good for two. The reddish aura adds and exotic flair.
 	                	</div>
 	                
 	                	<h6> Features: </h6>
@@ -77,26 +80,27 @@
 									</div>
 	                            </ul> 
 	                            <div class="clearfix"></div>
-		                    	<div class="col-md-6">
+		                    	<div class="col-md-6 col-sm-6">
 		                    		<div style="text-shadow: none; display: inline-block; background: #fff; border: solid 1px #ddd; padding: 0px 10px 0px 10px; box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.2);">	
-		                    			<span style="font-weight: 600; font-size: 24px;"> 3200 </span> /night
+		                    			<span style="font-weight: 600; font-size: 24px;"> 2250 </span> /night
 		                    		</div>
 		                    	</div>
-	                            <div class="col-md-6 text-right">
+		                    	
+	                            <div class="col-md-6 col-sm-6 text-right">
 			                    		<button class="btn btn-success"> View </button>
-			                    </div>
-
+			                    
+			                	</div>
 	                    	</div>
-
+	                    	<br>
 	                	</div>
 			        </div>
 			        <div class="col-md-6">
 			            <a href="#"><img src="assets/images/suite_amethyst.jpg" class="img-polaroid" style="width:400px;  margin-bottom: 40px;" alt="ccs_logo"></a>
 
 			            <div class = "text-left">
-			            <h4>Standard Twin</h4>
+			            <h4 id="room_head">Suite Amethyst</h4>
 	                    <div class="description" style="margin-bottom: 10px">
-	                    The STANDARD ROOM aptly provides the essentials of value accommodation.  Perfect for travellers with reasonable budgets.
+	                    The Suite Amythyst room is a one-room suite with two queen-size beds. It features a 25 inch flatscreen TV, and complementary-color chairs. It also overlooks the lush pine trees. 
 	                	</div>
 	                	<h6> Features: </h6>
 	                	<div class="row">
@@ -115,16 +119,17 @@
 									</div>
 	                            </ul> 
 	                            <div class="clearfix"></div>
-	                            <div class="col-md-6">
+	                            <div class="col-md-6 col-sm-6 ">
 		                    		<div style="text-shadow: none; display: inline-block; background: #fff; border: solid 1px #ddd; padding: 0px 10px 0px 10px; box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.2);">	
-		                    			<span style="font-weight: 600; font-size: 24px;"> 3200 </span> /night
+		                    			<span style="font-weight: 600; font-size: 24px;"> 5500 </span> /night
 		                    		</div>
 		                    	</div>
-		                    	<div class="col-md-6 text-right">
+		                    	<div class="col-md-6 col-sm-6 text-right">
 			                    		<button class="btn btn-success"> View </button>
 			                    </div>
 	                            
 	                    	</div>
+	                    	<br>
 	                	</div>
 			        </div>
 			        
@@ -136,9 +141,9 @@
 			        <div class="col-md-6">
 			            <a href="#"><img src="assets/images/family_emerald.jpg" class="img-polaroid" style="width:400px; margin-bottom: 40px" alt="inn_logo"></a>
 			            <div class = "text-left">
-			            <h4>Standard Twin</h4>
+			            <h4 id="room_head">Family Emerald</h4>
 	                    <div class="description" style="margin-bottom: 10px">
-	                    The STANDARD ROOM aptly provides the essentials of value accommodation.  Perfect for travellers with reasonable budgets.
+	                    The Family Emerald room, as the name implies, is perfect for a family of travellers wanting to tour the city. This room also adds a touch of luck to your stay.
 	                	</div>
 	                
 	                	<h6> Features: </h6>
@@ -146,7 +151,7 @@
 	                            <ul class = "fa-ul">
 	                            	<div class="row">
 	                            		<div class="col-md-6">
-			                                <li><i class="fa fa-check-square"></i> 2 single beds</li>
+			                                <li><i class="fa fa-check-square"></i> 2 king-sized beds</li>
 											<li><i class="fa fa-check-square"></i> Coffee nook</li>
 											<li><i class="fa fa-check-square"></i> Hotel quality orthopedic mattress</li>
 										</div>
@@ -158,35 +163,36 @@
 									</div>
 	                            </ul> 
 	                            <div class="clearfix"></div>
-		                    	<div class="col-md-6">
+		                    	<div class="col-md-6 col-sm-6">
 		                    		<div style="text-shadow: none; display: inline-block; background: #fff; border: solid 1px #ddd; padding: 0px 10px 0px 10px; box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.2);">	
-		                    			<span style="font-weight: 600; font-size: 24px;"> 3200 </span> /night
+		                    			<span style="font-weight: 600; font-size: 24px;"> 5850 </span> /night
 		                    		</div>
 		                    	</div>
-	                            <div class="col-md-6 text-right">
+	                            <div class="col-md-6 col-sm-6 text-right">
 			                    		<button class="btn btn-success"> View </button>
 			                    </div>
 
 	                    	</div>
-
+	                    	<br>
 	                	</div>
 			        </div>
 			        <div class="col-md-6">
-			            <a href="#"><img src="assets/images/deluxe-sapphire_2.jpg" class="img-polaroid" style="width:400px;  margin-bottom: 40px;" alt="ccs_logo"></a>
+			            <a href="#"><img src="assets/images/deluxe-sapphire_2.jpg" class="img-polaroid" style="width:450px;  margin-bottom: 40px;" alt="ccs_logo"></a>
 
 			            <div class = "text-left">
-			            <h4>Standard Twin</h4>
+			            <h4 id="room_head">Deluxe Sapphire</h4>
 	                    <div class="description" style="margin-bottom: 10px">
-	                    The STANDARD ROOM aptly provides the essentials of value accommodation.  Perfect for travellers with reasonable budgets.
+	                     This room features a single king size bed, perfect for the honeymoon. It features a 25 inch flatscreen TV, as well as the regular amenities, such as a hot and cold shower.
 	                	</div>
 	                	<h6> Features: </h6>
 	                	<div class="row">
 	                            <ul class="fa-ul">
 	                            	<div class="row">
 	                            		<div class="col-md-6">
-			                                <li><i class="fa fa-check-square"></i> 2 single beds</li>
+			                                <li><i class="fa fa-check-square"></i> 1 king-sized bed</li>
 											<li><i class="fa fa-check-square"></i> Coffee nook</li>
 											<li><i class="fa fa-check-square"></i> Hotel quality orthopedic mattress</li>
+											<li><i class="fa fa-check-square"></i> Mountain View</li>
 										</div>
 										<div class="col-md-6">
 			                                <li><i class="fa fa-check-square"></i> LED TV w/ cable</li>
@@ -196,38 +202,109 @@
 									</div>
 	                            </ul> 
 	                            <div class="clearfix"></div>
-	                            <div class="col-md-6">
+	                            <div class="col-md-6 col-sm-6">
 		                    		<div style="text-shadow: none; display: inline-block; background: #fff; border: solid 1px #ddd; padding: 0px 10px 0px 10px; box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.2);">	
-		                    			<span style="font-weight: 600; font-size: 24px;"> 3200 </span> /night
+		                    			<span style="font-weight: 600; font-size: 24px;"> 4850 </span> /night
 		                    		</div>
 		                    	</div>
-		                    	<div class="col-md-6 text-right">
+		                    	<div class="col-md-6 col-sm-6 text-right">
 			                    		<button class="btn btn-success"> View </button>
 			                    </div>
 	                            
 	                    	</div>
+	                    	<br>
 	                	</div>
 			        </div>
 			        
 		    	</div>
 		    </div>
 		    <hr>
-		    <h1 class="text-center" id="main_des" style="margin-bottom: 50px;">
+		    <h1 class="text-center" id="main_des">
 					Facilities
 				</h1>
+				<p style="margin-bottom: 50px;" > We have state-of the art facilities that will make you enjoy your stay with us!</p>
 				<div class="col-md-12">
 				    <div class="row">
-				    	<div class="col-md-3">
+				    	<div class="col-md-6 col-sm-12">
+				    		<a href="#"><img src="assets/images/diner.jpg" class="img-polaroid" style="width:450px;  margin-bottom: 40px;" alt="ccs_logo"></a>
+				    		<div class = "text-left">
+				            <h4 id="room_head">Quaint Diner</h4>
+		                    <div class="description" style="margin-bottom: 10px">
+		                    Inspired by the retro look and feel of the 1950s, this diner will surely take you back in time!
+		                	</div>
+		                	</div>
+
 				    	</div>
-				    	<div class="col-md-3">
+				    	<div class="col-md-6 col-sm-12">
+				    		<a href="#"><img src="assets/images/swimming.jpg" class="img-polaroid" style="width:450px;  margin-bottom: 40px;" alt="ccs_logo"></a>
+				    		<div class = "text-left">
+				            <h4 id="room_head">Rooftop Swimming Pool</h4>
+		                    <div class="description" style="margin-bottom: 10px">
+		                    	Hot day? You're in luck! Indulge and relax in our swimming pool, perfect for the summer season!
+		                	</div>
+		                	</div>
+
 				    	</div>
-				    	<div class="col-md-3">
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-6 col-sm-12">
+				    		<a href="#"><img src="assets/images/videoke.jpg" class="img-polaroid" style="width:450px;  margin-bottom: 40px;" alt="ccs_logo"></a>
+				    		<div class = "text-left">
+				            <h4 id="room_head">Entertainment Room</h4>
+			                    <div class="description" style="margin-bottom: 10px">
+			                    Want to relax and enjoy? Then come on down to the entertaiment center, where you can also play with your friends! Sing the night away with our karaoke machines!
+			                	</div>
+		                	</div>
 				    	</div>
-				    	<div class="col-md-3">
+				    	<div class="col-md-6 col-sm-12">
+				    		<a href="#"><img src="assets/images/gym-room.jpg" class="img-polaroid" style="width:450px;  margin-bottom: 40px;" alt="ccs_logo"></a>
+				    		<div class = "text-left">
+				            <h4 id="room_head">Fitness GYM</h4>
+		                    <div class="description" style="margin-bottom: 10px">
+		                    Get in shape and exercise with our fitness GYM, equipped with the state-of-the-art machines! 
+		                	</div>
+		                </div>
+
+				    	</div>
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-6 col-sm-12">
+				    		<a href="#"><img src="assets/images/dining.jpg" class="img-polaroid" style="width:450px;  margin-bottom: 40px;" alt="ccs_logo"></a>
+				    		<div class = "text-left">
+				            <h4 id="room_head">Function Hall</h4>
+			                    <div class="description" style="margin-bottom: 10px">
+			                    Weddings? Family gatherings? Baptismals? No problem, we'll have it all sorted out for you. Equipped with a high-quality sound system, this function hall can be occupied by 200 people.
+			                	</div>
+		                	</div>
+				    	</div>
+				    	<div class="col-md-6 col-sm-12">
+				    		<a href="#"><img src="assets/images/garden.jpg" class="img-polaroid" style="width:450px;  margin-bottom: 40px;" alt="ccs_logo"></a>
+				    		<div class = "text-left">
+				            <h4 id="room_head">Organic Garden</h4>
+		                    <div class="description" style="margin-bottom: 10px">
+		                    Plant vegetables and fruits in this lovely garden! This can alos be your food source, for when you want to make refreshing smoothies! 
+		                	</div>
+		                </div>
+
 				    	</div>
 				    </div>
 				</div>
 		</div>
 	</div>
+</span>
+</div>
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+    
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center" style="background-color: #31513A">
+        <span  style="color: white">
+        Created by: Group 5; HDE 11:00 - 1:00
+    	</span>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
 
 </html>
