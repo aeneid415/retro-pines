@@ -248,6 +248,7 @@
   }
   #cssmenu > ul > li > ul {
     width: 100%;
+    
     display: block;
   }
   #cssmenu.align-right ul li a {

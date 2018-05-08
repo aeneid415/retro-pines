@@ -3,6 +3,16 @@
     src: url(fonts/OpenSans-Light.ttf);
 }
 
+@font-face {
+    font-family: GrandHotel;
+    src: url(fonts/GrandHotel-Regular.otf);
+}
+
+@font-face {
+    font-family: Unique;
+    src: url(fonts/Unique.ttf);
+}
+
 #main_des{
 	font-family: OpenSansLight;
 	color: #764d08;
@@ -11,4 +21,21 @@
 #service{
 	font-family: Arial;
 	font-weight: 500;
+}
+
+
+#sub_head{
+	font-family: GrandHotel;
+	text-align: center;
+	color: #000000;
+}
+
+#room_head{
+	font-family: GrandHotel;
+	
+	color: #000000;
+}
+
+#vismis{
+	font-family: Unique;
 }
